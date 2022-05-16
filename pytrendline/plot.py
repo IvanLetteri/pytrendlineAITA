@@ -173,8 +173,8 @@ class TrendlineFigure():
     if "color" in self.plotting_prop_overrides:
       return self.plotting_prop_overrides["color"]
 
-    orange = Color("darkorange")
-    purple = Color("steelblue")
+    orange = Color("red")
+    purple = Color("green")
     grey = Color("slategrey")
 
     if self.type == structs.TrendlineTypes.SUPPORT:
